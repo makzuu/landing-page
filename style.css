@@ -15,3 +15,11 @@
 .links a {
     text-decoration: none;
 }
+
+body > * {
+    padding: 0 100px;
+}
+
+body {
+    margin: 0;
+}
