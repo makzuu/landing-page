@@ -20,7 +20,7 @@ body {
     color: #e5e7eb;
 }
 
-.hero button, .call-to-action {
+.hero button, .call-to-action, .call-to-action button {
     background-color: #3882f6;
 }
 
@@ -65,6 +65,13 @@ body {
     color: #f9faf8;
 }
 
+button {
+    padding: 8px 16px;
+    border: 0px;
+    border-radius: 8px;
+    color: white;
+}
+
 /* section 2 */
 
 .information .header-text {
@@ -94,6 +101,10 @@ body {
 
 .call-to-action {
     display: flex;
+}
+
+.call-to-action button {
+    border: 1px solid white;
 }
 
 /* footer */
