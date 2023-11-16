@@ -1,3 +1,15 @@
+/* common */
+
+body > * {
+    padding: 0 100px;
+}
+
+body {
+    margin: 0;
+}
+
+/* header */
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -16,10 +28,28 @@
     text-decoration: none;
 }
 
-body > * {
-    padding: 0 100px;
+/* hero */
+
+.hero {
+    display: flex;
 }
 
-body {
-    margin: 0;
+.hero > * {
+    flex: 1;
 }
+
+/* section 2 */
+
+.card-container {
+    display: flex;
+}
+
+/* section 3 */
+
+/* section 4 */
+
+.call-of-action {
+    display: flex;
+}
+
+/* footer */
