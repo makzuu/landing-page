@@ -1,11 +1,27 @@
 /* common */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body > * {
     padding: 0 100px;
 }
 
 body {
     margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header, .hero, footer {
+    background-color: #1f2937;
+}
+
+.hero .secondary-text, .header .link-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.hero button, .call-to-action {
+    background-color: #3882f6;
 }
 
 /* header */
@@ -28,6 +44,11 @@ body {
     text-decoration: none;
 }
 
+.header .logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
 /* hero */
 
 .hero {
@@ -38,7 +59,19 @@ body {
     flex: 1;
 }
 
+.hero .main-text {
+    font-size: 48px;
+    font-weight: 800;
+    color: #f9faf8;
+}
+
 /* section 2 */
+
+.information .header-text {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
 
 .card-container {
     display: flex;
@@ -46,10 +79,25 @@ body {
 
 /* section 3 */
 
+.quote-section {
+    background-color: #e5e7eb;
+}
+
+.quote-section .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+
 /* section 4 */
 
-.call-of-action {
+.call-to-action {
     display: flex;
 }
 
 /* footer */
+
+footer {
+    text-align: center;
+}
