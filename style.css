@@ -1,9 +1,46 @@
 /* common */
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;0,900;1,300&display=swap');
+
+.extra-bold {
+    font-weight: 900;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+.regular {
+    font-weight: 400;
+}
+
+.light-italic {
+    font-weight: 300;
+    font-style: italic;
+}
+
+.extra {
+    font-size: 48px;
+}
+
+.big {
+    font-size: 36px;
+}
+
+.medium {
+    font-size: 24px;
+}
+
+.small {
+    font-size: 18px;
+}
+
+.extra-small {
+    font-size: 12px;
+}
 
 body > * {
-    padding: 0 100px;
+    padding: 0 20vw;
     padding-top: 48px;
     padding-bottom: 48px;
 }
@@ -18,12 +55,11 @@ body {
 }
 
 .hero .secondary-text, .header .link-text {
-    font-size: 18px;
     color: #e5e7eb;
 }
 
 button {
-    padding: 8px 16px;
+    padding: 8px 24px;
     border: 0px;
     border-radius: 8px;
     color: white;
@@ -56,7 +92,6 @@ button {
 }
 
 .header .logo {
-    font-size: 24px;
     color: #f9faf8;
 }
 
@@ -72,8 +107,6 @@ button {
 }
 
 .hero .main-text {
-    font-size: 48px;
-    font-weight: 800;
     color: #f9faf8;
 
     margin: 0;
@@ -103,8 +136,6 @@ button {
 }
 
 .information .header-text {
-    font-size: 36px;
-    font-weight: 800;
     color: #1f2937;
 
     margin: 0 0 24px 0;
@@ -112,6 +143,7 @@ button {
 
 .card-container {
     display: flex;
+    justify-content: space-evenly;
 }
 
 .card {
@@ -122,14 +154,15 @@ button {
 }
 
 .information .illustration {
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     border: 1px solid #3882f6;
     border-radius: 8px;
 }
 
 .card p {
     margin: 8px 0 0 0;
+    max-width: 150px;
 }
 
 /* section 3 */
@@ -142,9 +175,6 @@ button {
 }
 
 .quote-section .quote-text {
-    font-size: 36px;
-    font-weight: 300;
-    font-style: italic;
     color: #1f2937;
 
     margin: 0;
@@ -152,7 +182,6 @@ button {
 
 .quote-section .quote-author{
     align-self: flex-end;
-    text-weight: 800;
 }
 
 
@@ -165,15 +194,6 @@ button {
     border-radius: 8px;
     padding: 24px 32px;
     color: white;
-}
-
-.call-to-action .header-text {
-    font-size: 18px;
-    font-weight: 800;
-}
-
-.call-to-action .secondary-text {
-    font-weight: 300;
 }
 
 .call-to-action button {
